@@ -1,4 +1,4 @@
-import { calculateHitValue, pomekonBattle, Dabriel, Guarte } from './dojo';
+const { Guarte, Dabriel, calculateHitValue, pomekonBattle } = require ('./pomekon')
 
 describe('calculateHitValue', () => {
   describe('when players level is odd', () => {
